@@ -1,0 +1,8 @@
+# Copy this to terraform.tfvars and fill in your own values.
+# terraform.tfvars is gitignored, so it stays off GitHub.
+
+region     = "us-east-1"
+domain     = "example.com"
+mailbox    = "hello"
+forward_to = "you@gmail.com"
+brand      = "MyBrand"
